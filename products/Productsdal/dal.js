@@ -1,6 +1,6 @@
 const fs = require("fs");
 const filePath =
-  "../ProductsDB/prudacts.json";
+  "products/ProductsDB/prudacts.json";
 
 const getAllPrudacts = () => {
   const rawData = fs.readFileSync(filePath);
