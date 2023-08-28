@@ -1,6 +1,6 @@
 const fs = require("fs");
 const filePath =
-  "C:\\Users\\user\\Desktop\\Exe 2 git\\projectNodeJS\\products\\ProductsDB\\prudacts.json";
+  "../ProductsDB/prudacts.json";
 
 const getAllPrudacts = () => {
   const rawData = fs.readFileSync(filePath);
